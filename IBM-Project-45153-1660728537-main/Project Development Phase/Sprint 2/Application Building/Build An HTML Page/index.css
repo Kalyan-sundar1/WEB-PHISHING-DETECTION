@@ -1,0 +1,256 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-family: Tw cen MT;  
+}
+.banner
+{
+    width:100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),  rgba(0,0,0,0.75);
+    background-size: cover;
+    background-color: #37517e;
+    background-position: center;
+}
+.navbar
+{
+    width:85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.navbar ul li
+{
+    list-style: none;
+    display:inline-block;
+    margin: 0px 10px;
+    position: relative;
+}
+.navbar ul li a 
+{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.navbar ul li::after
+{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: black;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+.navbar ul li:hover::after
+{
+    width: 100%;
+}
+.content
+{
+margin: 100px; 
+margin-top: 140px;
+}
+.content h1
+{
+    color: black;
+    font-size:50px;
+}
+.content p
+{
+    color: white;
+}
+
+.btn
+{
+    display:inline-flex;
+    padding: 35px 0;
+    margin: 0px 10px;
+}
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+    margin-right: 25px;
+   }
+   
+   button.learn-more {
+    width: 12rem;
+    height: auto;
+   }
+   
+   button.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: black;
+    border-radius: 1.625rem;
+   }
+   
+   button.learn-more .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+   }
+   
+   button.learn-more .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+   }
+   
+   button.learn-more .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+   }
+   
+   button.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: black;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+   }
+   
+   button:hover .circle {
+    width: 100%;
+   }
+   
+   button:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+   }
+   
+   button:hover .button-text {
+    color: #fff;
+   }
+
+   .images 
+   {
+    width: 35%;
+    height: 70%;
+    position: absolute;
+    bottom: 0;
+    right: 175px;
+    }
+
+    .images img
+    {
+        height:80%;
+        position: absolute;
+        left: 0;
+    }
+    
+   .text1
+   {
+    float: left;
+    margin: 30px;
+    text-align:center;
+    font-size:medium;
+   }
+
+   .text2
+    {
+    float: right;
+    margin: 30px;
+    text-align: center;
+    font-size:medium;
+
+    }
+
+   .footer 
+   {
+    background-color: #37517e;
+   }
+   
+   .footer h2
+   {
+    text-align: center;
+    font-size: 40px;
+   }
+
+   .footer p
+   {
+    margin-left: 50px;
+   }
+
+   
+   
+   .button-24 {
+     background: #101F2F;
+     border: 1px solid black;
+     border-radius: 6px;
+     box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+     box-sizing: border-box;
+     color: #FFFFFF;
+     cursor: pointer;
+     display: inline-block;
+     font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+     font-size: 16px;
+     font-weight: 800;
+     line-height: 16px;
+     min-height: 40px;
+     outline: 0;
+     padding: 12px 14px;
+     text-align: center;
+     text-rendering: geometricprecision;
+     text-transform: none;
+     user-select: none;
+     -webkit-user-select: none;
+     touch-action: manipulation;
+     vertical-align: middle;
+   }
+   
+   .button-24:hover,
+   .button-24:active {
+     background-color: initial;
+     background-position: 0 0;
+     color: black;
+     animation: glow 1s ease-in-out infinite alternate;
+   }
+   
+   .button-24:active {
+     opacity: .5;
+   }
+
+            
+    
+
+
+
+   
